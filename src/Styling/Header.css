@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+.notification-text {
+
+}
+
+.mark-all-as-read-text {
+    justify-content: end;
+    margin-top: 25px;
+    margin-right: 40px;
+}
