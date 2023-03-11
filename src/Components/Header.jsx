@@ -5,8 +5,8 @@ function Header() {
 
   return (
     <div className='header'>
-        <h1 className='notifications-text'>Notifications 3</h1>
-        <h2 className='mark-all-as-read-text'>Mark all as read</h2>
+        <h1 className='notifications-text'>Notifications <b>3</b></h1>
+        <a className='mark-all-as-read-text'>Mark all as read</a>
     </div>
   )
 }

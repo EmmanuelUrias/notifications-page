@@ -1,12 +1,14 @@
 import './Styling/App.css';
 import Header from './Components/Header';
-import Notifications from './Components/Notifications';
+import NotificationsPage from './Components/NotificationsData';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Notifications />
+      <div className='page'>
+        <Header />
+        <NotificationsPage />
+      </div>
     </div>
   );
 }
