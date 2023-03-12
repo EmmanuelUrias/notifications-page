@@ -24,5 +24,9 @@
     margin-top: 35px;
     margin-right: 50px;
     font-size: 16px;
-    color: rgb(57, 10, 211);
+}
+
+.mark-all-as-read-text:hover {
+    color: rgb(23, 10, 211);
+    cursor: pointer;
 }
